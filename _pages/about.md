@@ -2,23 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # address: >
+  #   # <p>555 your office number</p>
+  #   # <p>123 your address street</p>
+  #   # <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I am a first-year graduate student at the [Institute for Software Research](https://www.isri.cmu.edu/), [Carnegie Mellon University](https://www.cmu.edu/) currently pursuing a Ph.D. in Software Engineering. My research interests span the fields of verification of Cyber-Physical Systems behavior and safe planning and control methods for robotic systems.​ I am advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I am part of [AirLab](http://theairlab.org/) and [SoDA](https://cmu-soda.github.io/#/). I also work with [Dr. Ding Zhao](https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html)'s [SafeAI lab](https://safeai-lab.github.io/). Prior to joining CMU, I worked with [Dr. Jyotirmoy Deshmukh](https://jdeshmukh.github.io/)'s [CPS VIDA](https://cps-vida.github.io/) lab at [University of Southern California](https://www.usc.edu/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Here is my [Resume](/assets/pdf/Parv Kapoor.pdf). Feel free to drop me an email to discuss collaboration opportunities!
+### Contact me
+
+[parvk@cs.cmu.edu](mailto:parvk@cs.cmu.edu)
