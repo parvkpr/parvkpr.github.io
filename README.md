@@ -1,3 +1,3 @@
 A cohesive summary of my presence on the internet
 
-Website link: parvkpr.github.io
+Website link: [parvkpr.github.io](parvkpr.github.io)
