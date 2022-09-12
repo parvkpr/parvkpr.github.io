@@ -32,21 +32,21 @@ Here is my [Resume](/assets/pdf/Parv Kapoor.pdf). Feel free to drop me an email 
 - - - -
     
 
-##### <span style="color:Maroon;font-family:Papyrus; font-style:italic"> [Safe and Seamless Operation of Manned and Unmanned Aircraft in Shared Airspace](/blog/2022/proj1/) </span>
+##### <span style="color:Maroon;font-family:Georgia; font-style:italic"> [Safe and Seamless Operation of Manned and Unmanned Aircraft in Shared Airspace](/blog/2022/proj1/) </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
         {% include figure.html path="assets/img/safety_9.png" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 
-<div class="col-sm" style="text-align: justify"> We defined a new angular rate based control barrier function for safe collision avoidance of autonomous aircrafts. We evaluate our method on a realistic flight simulator with a uman pilot acting as an adversary. 
+<div class="col-sm" style="text-align: justify"> We defined a new angular rate based control barrier function for safe collision avoidance of autonomous aircrafts. We evaluate our method on a realistic flight simulator with a human pilot acting as an adversary. 
 </div>
 </div>
 
 
 - - - -
 
-##### <span style="color:Maroon;font-family:Papyrus; font-style:italic"> [Richer feedback guided planning for Temporal Logic specified objectives](/blog/2022/proj3/) </span>
+##### <span style="color:Maroon;font-family:Georgia; font-style:italic"> [Richer feedback guided planning for Temporal Logic specified objectives](/blog/2022/proj3/) </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
@@ -58,7 +58,7 @@ patterns for easier plan generation. We also propose a novel MCTS methods inspir
 </div>
 </div>
 - - - -
-##### <span style="color:Maroon;font-family:Papyrus; font-style:italic"> [Model based Reinforcement Learning from STL specifications](/blog/2020/proj5/) </span>
+##### <span style="color:Maroon;font-family:Georgia; font-style:italic"> [Model based Reinforcement Learning from STL specifications](/blog/2020/proj5/) </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
@@ -73,7 +73,7 @@ of the STL specification over a finite time horizon.
 </div>
 
 - - - - 
-##### <span style="color:Maroon;font-family:Papyrus; font-style:italic"> [Predicting food insecurity](/blog/2022/proj4/) </span>
+##### <span style="color:Maroon;font-family:Georgia; font-style:italic"> [Predicting food insecurity](/blog/2022/proj4/) </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
