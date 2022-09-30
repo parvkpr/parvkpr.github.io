@@ -23,6 +23,7 @@ Prior to joining CMU, I worked with [Dr. Jyotirmoy Deshmukh](https://jdeshmukh.g
 
 
 Here is my [Resume](/assets/pdf/Parv Kapoor.pdf). Feel free to drop me an email to discuss collaboration opportunities!
+
 ### Contact me
 
 [parvk@cs.cmu.edu](mailto:parvk@cs.cmu.edu)
@@ -32,7 +33,7 @@ Here is my [Resume](/assets/pdf/Parv Kapoor.pdf). Feel free to drop me an email 
 - - - -
     
 
-##### <span style="color:Maroon;font-family:Georgia; font-style:italic"> [Safe and Seamless Operation of Manned and Unmanned Aircraft in Shared Airspace](/blog/2022/proj1/) </span>
+##### <span style="color:Maroon;font-family:Georgia;"> [Safe and Seamless Operation of Manned and Unmanned Aircraft in Shared Airspace](/blog/2022/proj1/) </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
@@ -40,13 +41,34 @@ Here is my [Resume](/assets/pdf/Parv Kapoor.pdf). Feel free to drop me an email 
     </div>
 
 <div class="col-sm" style="text-align: justify"> We defined a new angular rate based control barrier function for safe collision avoidance of autonomous aircrafts. We evaluate our method on a realistic flight simulator with a human pilot acting as an adversary. 
+<a href='/assets/pdf/challenges_in_shared_airspace.pdf'>Paper</a>  <a href='https://www.cs.cmu.edu/news/2022/ai-pilot'>Article</a>
 </div>
+
 </div>
+
+- - - -
+
+
+##### <span style="color:Maroon;font-family:Georgia;"> [Follow The Rules: Online Signal Temporal Logic Tree Search for Guided Imitation Learning in Stochastic Domains](/blog/2022/proj2/) </span>
+<br>
+<div class="row justify-content-sm-center">
+  <div class="col-sm">
+        {% include figure.html path="assets/img/fig1_newspecv2.png" title="example image" class="img-fluid rounded z-depth-1"%}
+    </div>
+
+<div class="col-sm" style="text-align: justify"> This work uses Monte Carlo Tree Search (MCTS) as a means of integrating STL specification into a vanilla LfD policy to improve constraint satisfaction. We propose augmenting the MCTS
+heuristic with STL robustness values to bias the tree search towards branches with higher constraint satisfaction. 
+<br>
+<a href='https://arxiv.org/abs/2209.13737'> Paper </a>  <a href='https://github.com/castacks/mcts-stl-planning'>  Code  </a>  <a href='https://www.youtube.com/watch?v=fiFCwc57MQs'>  Video </a> 
+</div>
+
+</div>
+
 
 
 - - - -
 
-##### <span style="color:Maroon;font-family:Georgia; font-style:italic"> [Richer feedback guided planning for Temporal Logic specified objectives](/blog/2022/proj3/) </span>
+##### <span style="color:Maroon;font-family:Georgia;"> [Decomposition for Incremental Behavior Building from STL objectives ](/blog/2022/proj3/) </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
@@ -58,7 +80,7 @@ patterns for easier plan generation. We also propose a novel MCTS methods inspir
 </div>
 </div>
 - - - -
-##### <span style="color:Maroon;font-family:Georgia; font-style:italic"> [Model based Reinforcement Learning from STL specifications](/blog/2020/proj5/) </span>
+##### <span style="color:Maroon;font-family:Georgia;"> [Model based Reinforcement Learning from STL specifications](/blog/2020/proj5/) </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
@@ -69,11 +91,13 @@ patterns for easier plan generation. We also propose a novel MCTS methods inspir
 specifications in conjunction with model-based learning to design
 model predictive controllers that try to optimize the satisfaction
 of the STL specification over a finite time horizon.
+<br>
+<a href='https://arxiv.org/abs/2011.04950'>Paper</a> 
 </div>
 </div>
 
 - - - - 
-##### <span style="color:Maroon;font-family:Georgia; font-style:italic"> [Predicting food insecurity](/blog/2022/proj4/) </span>
+##### <span style="color:Maroon;font-family:Georgia; "> [Predicting food insecurity](/blog/2022/proj4/) </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
@@ -84,6 +108,6 @@ of the STL specification over a finite time horizon.
 method to derive predictions for food insecurity. If imple-
 mented by international humanitarian aid organizations, it
 can make humanitarian assistance more rapid, efficient, and
-more equitably distributed
+more equitably distributed.
 </div>
 </div>
