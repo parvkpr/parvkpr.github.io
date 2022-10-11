@@ -34,6 +34,7 @@ Here is my [Resume](/assets/pdf/Parv Kapoor.pdf). Feel free to drop me an email 
     
 
 ##### <span style="color:Maroon;font-family:Georgia;"> [Safe and Seamless Operation of Manned and Unmanned Aircraft in Shared Airspace](/blog/2022/proj1/) </span>
+<span style="color:#29465B;font-family:serif;font-weight:bold;"> Parv Kapoor</span><span style="color:#29465B;font-family:serif;">, Jay Patrikar, Sebastian Scherer, Jean Oh </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
@@ -50,6 +51,7 @@ Here is my [Resume](/assets/pdf/Parv Kapoor.pdf). Feel free to drop me an email 
 
 
 ##### <span style="color:Maroon;font-family:Georgia;"> [Follow The Rules: Online Signal Temporal Logic Tree Search for Guided Imitation Learning in Stochastic Domains](/blog/2022/proj2/) </span>
+<span style="color:#29465B;font-family:serif;"> Jasmine Aloor, Jay Patrikar,</span> <span style="color:#29465B;font-family:serif;font-weight:bold;">Parv Kapoor</span><span style="color:#29465B;font-family:serif;">, Sebastian Scherer, Jean Oh </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
@@ -69,6 +71,7 @@ heuristic with STL robustness values to bias the tree search towards branches wi
 - - - -
 
 ##### <span style="color:Maroon;font-family:Georgia;"> [Decomposition for Incremental Behavior Building from STL objectives ](/blog/2022/proj3/) </span>
+<span style="color:#29465B;font-family:serif;font-weight:bold;"> Parv Kapoor</span>,<span style="color:#29465B;font-family:serif;"> Eunsuk Kang, Emma Shedden, Romulo Meira Goes </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
@@ -80,6 +83,7 @@ heuristic with STL robustness values to bias the tree search towards branches wi
 </div>
 - - - -
 ##### <span style="color:Maroon;font-family:Georgia;"> [Model based Reinforcement Learning from STL specifications](/blog/2020/proj5/) </span>
+<span style="color:#29465B;font-family:serif;font-weight:bold;"> Parv Kapoor</span>,<span style="color:#29465B;font-family:serif;"> Anand Balakrishnan, Jyotirmoy Deshmukh </span>
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
