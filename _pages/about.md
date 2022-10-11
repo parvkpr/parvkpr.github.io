@@ -37,7 +37,7 @@ Here is my [Resume](/assets/pdf/Parv Kapoor.pdf). Feel free to drop me an email 
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
-        {% include figure.html path="assets/img/safety_9.png" title="example image" class="img-fluid rounded z-depth-1"%}
+        {% include figure.html path="assets/img/fig4.png" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 
 <div class="col-sm" style="text-align: justify"> We defined a new angular rate based control barrier function for safe collision avoidance of autonomous aircrafts. We evaluate our method on a realistic flight simulator with a human pilot acting as an adversary. 
@@ -72,11 +72,10 @@ heuristic with STL robustness values to bias the tree search towards branches wi
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
-        {% include figure.html path="assets/img/185.png" title="example image" class="img-fluid rounded z-depth-1"%}
+        {% include figure.html path="assets/img/dibbs.png" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 
-<div class="col-sm" style="text-align: justify"> We define a correction/introspective semantics over bounded STL
-patterns for easier plan generation. We also propose a novel MCTS methods inspired by our newer heuristics. 
+<div class="col-sm" style="text-align: justify"> We define a novel Signal Temporal Logic decomposition scheme for Task and Motion Planning for robots with holonomic constraints. We also propose a novel Monte Carlo Tree Search method for planning over decomposed specifications. 
 </div>
 </div>
 - - - -
@@ -96,18 +95,3 @@ of the STL specification over a finite time horizon.
 </div>
 </div>
 
-- - - - 
-##### <span style="color:Maroon;font-family:Georgia; "> [Predicting food insecurity](/blog/2022/proj4/) </span>
-<br>
-<div class="row justify-content-sm-center">
-  <div class="col-sm">
-        {% include figure.html path="assets/img/IPC.png" title="example image" class="img-fluid rounded z-depth-1"%}
-    </div>
-
-<div class="col-sm" style="text-align: justify">  In this paper, we have presented a new
-method to derive predictions for food insecurity. If imple-
-mented by international humanitarian aid organizations, it
-can make humanitarian assistance more rapid, efficient, and
-more equitably distributed.
-</div>
-</div>
