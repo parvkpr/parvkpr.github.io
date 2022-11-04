@@ -30,6 +30,23 @@ Here is my [Resume](/assets/pdf/Parv Kapoor.pdf). Feel free to drop me an email 
 
 ### Selected Projects  
 <br>
+
+- - - -
+    
+
+##### <span style="color:Maroon;font-family:Georgia;"> [Trust elicitation and restoration in human robot interaction](/blog/2022/proj6/) </span>
+<span style="color:#29465B;font-family:serif;font-weight:bold;"> Parv Kapoor</span><span style="color:#29465B;font-family:serif;">, Angela Chen, Simon Chu, Henny Admoni </span>
+<br>
+<div class="row justify-content-sm-center">
+  <div class="col-sm">
+        {% include figure.html path="assets/img/hri.png" title="example image" class="img-fluid rounded z-depth-1"%}
+    </div>
+
+<div class="col-sm" style="text-align: justify"> In this work, We devise new methods of trust inference in human robot collaboration. Additionally, We are focused on identifying the relationship between user customizations and perceived user trust. We are currently running the pilot user study through assistive gym simulator. We hope to use these factors to improve assistive robot design and devise new trust restoration techniques. 
+</div>
+
+</div>
+
 - - - -
     
 
