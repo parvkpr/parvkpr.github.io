@@ -29,7 +29,20 @@ Here is my [Resume](/assets/pdf/Parv Kapoor.pdf). Feel free to drop me an email 
 [parvk@cs.cmu.edu](mailto:parvk@cs.cmu.edu)
 
 ### Selected Projects  
+- - - -
+
+##### <span style="color:Maroon;font-family:Georgia;"> [On the Robustness of Reinforcement Learning agents](/blog/2022/proj6/) </span>
+<span style="color:#29465B;font-family:serif;">Changjian Zhang</span>, <span style="color:#29465B;font-family:serif;font-weight:bold;"> Parv Kapoor</span><span style="color:#29465B;font-family:serif;">, Romulo Meira Goes, David Garlan, Eunsuk Kang </span>
 <br>
+<div class="row justify-content-sm-center">
+  <div class="col-sm">
+        {% include figure.html path="assets/img/robust.png" title="example image" class="img-fluid rounded z-depth-1"%}
+    </div>
+
+<div class="col-sm" style="text-align: justify"> In this work, we use software engineering techniques to evaluate robustness of reinforcement learning agents in the face of environmental deviations. We use logical falsification techniques to develop insights about a trained policy's robustness. This is an ongoing project and a paper on our findings is due for submission. Please reach out to me directly for a working draft!
+</div>
+
+</div>
 
 - - - -
     
