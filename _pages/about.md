@@ -39,10 +39,10 @@ Here is my [Resume](/assets/pdf/Parv Kapoor.pdf). Feel free to drop me an email 
 <br>
 <div class="row justify-content-sm-center">
   <div class="col-sm">
-        {% include figure.html path="assets/img/hri.png" title="example image" class="img-fluid rounded z-depth-1"%}
+        {% include figure.html path="assets/img/hript2.png" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 
-<div class="col-sm" style="text-align: justify"> In this work, We devise new methods of trust inference in human robot collaboration. Additionally, We are focused on identifying the relationship between user customizations and perceived user trust. We are currently running the pilot user study through assistive gym simulator. We hope to use these factors to improve assistive robot design and devise new trust restoration techniques. 
+<div class="col-sm" style="text-align: justify"> In this work, We devise new methods of trust inference in human robot collaboration. Additionally, We are focused on identifying the relationship between user customizations and perceived user trust. We are currently running the pilot user study through an integrated assistive-gym and iGibson simulator. We hope to use these factors to improve assistive robot design and devise new trust restoration techniques. 
 </div>
 
 </div>
