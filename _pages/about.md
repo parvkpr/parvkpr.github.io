@@ -28,6 +28,8 @@ I am advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian 
 
 Prior to joining CMU, I worked with [Dr. Jyotirmoy Deshmukh](https://jdeshmukh.github.io/)'s [CPS VIDA](https://cps-vida.github.io/) lab at [University of Southern California](https://www.usc.edu/).
 
+If you are interested in working with me or joining our lab, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSddQ--uka2G7yDAaOrrtqH5BmBMmCAhq7GZp6zbwzG2ZXg1wA/viewform?usp=sf_link). 
+
 
 TLDR; <font size="+2"><a href='/assets/pdf/Parv Kapoor.pdf'>Resume</a></font>
 
