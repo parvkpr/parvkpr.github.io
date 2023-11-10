@@ -36,7 +36,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -81,10 +81,10 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Research projects # blog_name will be displayed in your blog page
-blog_nav_title: projects # your blog must have a title for it to be displayed in the nav bar
-blog_description: 
-permalink: /blog/:year/:title/
+# blog_name: Research projects # blog_name will be displayed in your blog page
+# blog_nav_title: projects # your blog must have a title for it to be displayed in the nav bar
+# blog_description: 
+# permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
@@ -233,8 +233,8 @@ imagemagick:
   enabled: true
   widths:
     - 480
-    - 800
-    - 1400
+    - 600
+    - 1000
   input_directories:
     - assets/img/
   input_formats:

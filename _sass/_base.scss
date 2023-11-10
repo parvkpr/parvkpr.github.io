@@ -93,8 +93,11 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
-  width: 100%;
+  margin-left: 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  margin-right:-2rem;
+  width: 75%;
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
