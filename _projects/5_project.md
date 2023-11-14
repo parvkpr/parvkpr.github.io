@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Trust elicitation and restoration in assistive robots
+description: Investigated the impact of customization and perspective on perceived trust in RL policies for an assistive robotics context via a pilot user study 
+img: assets/img/hrivid.gif
+importance: 6
+category: work
+redirect: /assets/pdf/HRIFINAL.pdf
+skills: [Human Robot Interaction, RL, Assistive Robotics]
 ---
 
 Every project has a beautiful feature showcase page.

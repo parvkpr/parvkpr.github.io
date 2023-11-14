@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Online STL Tree Search for Guided Imitation Learning 
+description:  Employed Monte Carlo Tree Search (MCTS) as a means of integrating STL specification into a vanilla LfD policy to improve constraint satisfaction. 
+img: assets/img/lfd.gif
 importance: 2
 category: work
+redirect: https://www.youtube.com/watch?v=fiFCwc57MQs
+skills: [LfD, MCTS, STL, Social Navigation]
 ---
 
 Every project has a beautiful feature showcase page.

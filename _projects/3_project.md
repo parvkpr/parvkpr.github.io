@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Vision-enabled CBFs for High-speed Detection and Avoidance
+description: Designed new CBF formulations for safe separation of aircrafts at high speeds using pure vision based sensors
+img: assets/img/CBfs.gif
 importance: 3
 category: work
+redirect: https://arxiv.org/abs/2211.06932
+skills: [Control Barrier Functions, Reactive Control, Collision Avoidance]
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: RL Robustness Analysis
+description: Analysing Robustness of Safe Reinforcement Learning Policies and Control Agents in the face of Environmental Deviations
+img: assets/img/rlrob.gif
 importance: 1
 category: work
+redirect: https://arxiv.org/abs/2311.07462
+skills: [RL,STL, SE4AI, Robustness]
 ---
 
 Every project has a beautiful feature showcase page.

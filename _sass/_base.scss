@@ -375,6 +375,24 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+    .card-text {
+      // Your styles for .card-text go here
+      font-size: 16px;
+      color: #555;
+    }
+    .card-skills {
+      background-color: #7f34db; // Choose your desired background color
+      color: #fff; // White text color
+      border-radius: 10px;
+      border: 3px solid #cccccc;
+      padding: 4px 4px;
+      display: inline-block; // Ensures the rectangle doesn't take full width
+      margin-top: 10px; // Adjust as needed
+    }
+    .skill {
+      // Styles for individual skills
+      margin-right: 5px; // Adjust as needed
+    }
   }
 
   .card-item {
