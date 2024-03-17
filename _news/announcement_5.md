@@ -5,4 +5,4 @@ date: 2024-02-18 16:11:00-0400
 inline: true
 ---
 
-Our paper titled "Safe Planning through Incremental Decomposition of Signal Temporal Logic Specifications" was accepted to Nasa Formal Methods 2024!
+Our [paper](assets/pdf/NFM.pdf) titled "Safe Planning through Incremental Decomposition of Signal Temporal Logic Specifications" was accepted to Nasa Formal Methods 2024!
