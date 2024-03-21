@@ -24,7 +24,7 @@ parvk [at] cs [dot] cmu [dot] edu
 <br><br>
 
 ----
-Hi! I am a third-year Ph.D. student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I also work with the [Robotics Institute](https://www.ri.cmu.edu/) (CMU) and the [AI for Systems Group](https://www.microsoft.com/en-us/research/theme/ai-for-systems/) ([Microsoft Research New York City](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/)).
+Hi! I am a third-year Ph.D. student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I also work with the [Robotics Institute](https://www.ri.cmu.edu/) (CMU), the [AI for Systems Group](https://www.microsoft.com/en-us/research/theme/ai-for-systems/) (Microsoft Research New York City) and [Intelligent Connected Systems Group](https://amrd.toyota.com/division/itl/) (Toyota Infotech Labs).
 
 I am deeply passionate about the intersection of Software Engineering and Artificial Intelligence, particularly in leveraging software engineering methodologies to guarantee the safety and  reliability of AI systems. My ongoing research involves: 
 1. Enhancing the robustness of reinforcement learning agents
