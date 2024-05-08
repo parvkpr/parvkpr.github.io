@@ -29,7 +29,7 @@ Hi! I am a third-year Ph.D. student at [Carnegie Mellon University](https://www.
 I am deeply passionate about the intersection of Software Engineering and Artificial Intelligence, particularly in leveraging software engineering methodologies to guarantee the safety and  reliability of AI systems. My ongoing research involves: 
 1. Enhancing the robustness of reinforcement learning agents
 2. Designing safe controllers for autonomous systems while adhering to formal high-level system specifications
-3. Developing real-time monitoring and alignment strategies for Large Language Models (LLM) agents. 
+3. Leveraging Alloy+LLMs for Semi Formal Programming (Requirements to Declarative Specifications to Code)
 
 I am currently a part of [AirLab](http://theairlab.org/) and [SoDA](https://cmu-soda.github.io/#/). Prior to joining CMU, I worked with [Dr. Jyotirmoy Deshmukh](https://jdeshmukh.github.io/)'s [CPS VIDA](https://cps-vida.github.io/) lab at [University of Southern California](https://www.usc.edu/).
 
