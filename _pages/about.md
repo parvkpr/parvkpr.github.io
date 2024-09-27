@@ -25,9 +25,8 @@ parvk [at] cs [dot] cmu [dot] edu
 
 ----
 
-**Update: I am in Seattle over the summer interning at Scaled Foundations working on Robotics Foundation Models!**
 
-Hi! I am a third-year Ph.D. student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I also work with the [Robotics Institute](https://www.ri.cmu.edu/) (CMU), the [AI for Systems Group](https://www.microsoft.com/en-us/research/theme/ai-for-systems/) (Microsoft Research New York City) and [Intelligent Connected Systems Group](https://amrd.toyota.com/division/itl/) (Toyota Infotech Labs).
+Hi! I am Ph.D. in Software Engineering student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I am also a part time researcher with [Scaled Foundations](https://www.scaledfoundations.ai/). Additionally, I work with the [Robotics Institute](https://www.ri.cmu.edu/) (CMU), the [AI for Systems Group](https://www.microsoft.com/en-us/research/theme/ai-for-systems/) (Microsoft Research New York City) and [Intelligent Connected Systems Group](https://amrd.toyota.com/division/itl/) (Toyota Infotech Labs).
 
 I am deeply passionate about the intersection of Software Engineering and Artificial Intelligence, particularly in leveraging software engineering methodologies to guarantee the safety and  reliability of AI systems. My ongoing research involves: 
 1. Enhancing the robustness of reinforcement learning agents [[1]](https://arxiv.org/abs/2406.17066) [[2]](https://arxiv.org/abs/2011.04950)
