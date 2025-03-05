@@ -19,15 +19,12 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0.0'
+        ruby-version: '3.1'
     - name: Enable bundler cache
       uses: actions/cache@v4
-
       with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ github.run_id }}
     - name: Install deps
       run: |
         gem install bundler
