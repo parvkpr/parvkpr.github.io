@@ -25,9 +25,9 @@ parvk [at] cs [dot] cmu [dot] edu
 
 ----
 
-**Update:** I will be at Microsoft Research over the summer working on Large Action Models and AI agents 
+**Update:** I will be at Microsoft Research over the summer working on Large Action Models and AI agents! 
 
-Hi! I am Ph.D. in Software Engineering student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I am also a part time researcher with [Scaled Foundations](https://www.scaledfoundations.ai/) and collaborate with [Toyota Infotech Labs](https://amrd.toyota.com/division/itl/).
+Hi! I am a Ph.D. in Software Engineering student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I am also a part time researcher with [Scaled Foundations](https://www.scaledfoundations.ai/) and collaborate with [Toyota Infotech Labs](https://amrd.toyota.com/division/itl/).
 
 I am interested in safe and robust robot learning, leveraging diverse methodologies such as constrained robot foundation models, reinforcement learning, control barrier functions, and imitation learning. Lately, my focus has shifted towards large action models and embodied AI. My past work has been focused on:
 1. Safe deep learning-based planning
