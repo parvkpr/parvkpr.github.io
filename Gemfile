@@ -13,6 +13,7 @@ group :jekyll_plugins do
     gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
+    gem 'uri', '1.0.3'
     # gem 'mini_racer', '~> 0.6.2'
     gem 'unicode_utils'
     gem 'webrick'
