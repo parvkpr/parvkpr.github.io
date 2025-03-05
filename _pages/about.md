@@ -25,7 +25,7 @@ parvk [at] cs [dot] cmu [dot] edu
 
 ----
 
-**Update:** I will be in Microsoft Research over the summer working on Large Action Models and AI agents 
+**Update:** I will be at Microsoft Research over the summer working on Large Action Models and AI agents 
 
 Hi! I am Ph.D. in Software Engineering student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I am also a part time researcher with [Scaled Foundations](https://www.scaledfoundations.ai/) and collaborate with [Toyota Infotech Labs](https://amrd.toyota.com/division/itl/).
 
