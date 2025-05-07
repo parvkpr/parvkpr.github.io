@@ -31,15 +31,16 @@ Hi! I am a Ph.D. in Software Engineering student at [Carnegie Mellon University]
 
 I am interested in safe and robust robot learning, leveraging diverse methodologies such as constrained robot foundation models, reinforcement learning, control barrier functions, and imitation learning. Lately, my focus has shifted towards large action models and embodied AI. My past work has been focused on:
 1. Safe deep learning-based planning
+  - Vision-based control barrier functions for Aerial Robotics [(RSS 25)](https://arxiv.org/abs/2505.03694) 
   - Using pretrained embeddings based behavior specifications for planning with world models [(Under submission)](https://arxiv.org/abs/2503.02012)
-  - Efficient differentiable logic networks for trajectory optimization and diffusion policies [(Under submission)](https://arxiv.org/pdf/2501.04194)
+  - Efficient differentiable logic networks for trajectory optimization and diffusion policies [(RA-L Rebuttal)](https://arxiv.org/pdf/2501.04194)
   - Embedding logical rules into autoregressive pre-trained transformers for trajectory planning [(RSS SA 24)](/assets/pdf/RSS.pdf)
   - Embedding general aviation rules into learning from demonstration policies using MCTS [(ICRA 23)](https://arxiv.org/abs/2209.13737)
-  - Requirement decomposition for integrated task and motion planning [(NFM 24)](https://arxiv.org/pdf/2403.10554)
 2. Bridging the sim-to-real gap for deploying learned policies 
   - Enhancing policy interpretability through trajectory analysis [(ICSE 25)](https://arxiv.org/abs/2412.02905)
-  - Identifying failure cases of safe reinforcement policies using simulation guided search [FM 24](https://arxiv.org/abs/2406.17066)
-  - Vision-based control barrier functions for Aerial Collision avoidance [(ICRA AA 22)](https://arxiv.org/abs/2011.04950) 
+  - Identifying failure cases of safe reinforcement policies using simulation guided search [(FM 24)](https://arxiv.org/abs/2406.17066)
+  - Requirement decomposition for integrated task and motion planning [(NFM 24)](https://arxiv.org/pdf/2403.10554)
+  
 <!--3. Leveraging Alloy+LLMs for Semi Formal Programming (Requirements to Declarative Specifications to Code)-->
 
 Beyond my core research, I have also developed a custom deep learning library with [implicit differentiation layers](https://github.com/parvkpr/implicit_dl) from scratch, conducted pilot user studies for trustworthy human-robot interaction, and contributed to the simulation and the foundation model workstreams for the Scaled Foundations [GRID platform](https://www.scaledfoundations.ai/).
