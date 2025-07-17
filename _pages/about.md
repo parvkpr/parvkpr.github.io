@@ -25,7 +25,7 @@ parvk [at] cs [dot] cmu [dot] edu
 
 ----
 
-**Update:** I will be at Microsoft Research over the summer working on Large Action Models and AI agents! 
+**Update:** I am at Microsoft Research working on Large Language Models and Reinforcement Learning! 
 
 Hi! I am a Ph.D. in Software Engineering student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I am also a part time researcher with [Scaled Foundations](https://www.scaledfoundations.ai/) and collaborate with [Toyota Infotech Labs](https://amrd.toyota.com/division/itl/).
 
@@ -33,7 +33,7 @@ I am interested in safe and robust robot learning, leveraging diverse methodolog
 1. Safe deep learning-based planning
   - Vision-based control barrier functions for Aerial Robotics [(RSS 25)](https://arxiv.org/abs/2505.03694) 
   - Using pretrained embeddings based behavior specifications for planning with world models [(Under submission)](https://arxiv.org/abs/2503.02012)
-  - Efficient differentiable logic networks for trajectory optimization and diffusion policies [(RA-L Rebuttal)](https://arxiv.org/pdf/2501.04194)
+  - Efficient differentiable logic networks for trajectory optimization and diffusion policies [(RA-L, ICRA 2026)](https://uw-ctrl.github.io/stlcg/)
   - Embedding logical rules into autoregressive pre-trained transformers for trajectory planning [(RSS SA 24)](/assets/pdf/RSS.pdf)
   - Embedding general aviation rules into learning from demonstration policies using MCTS [(ICRA 23)](https://arxiv.org/abs/2209.13737)
 2. Bridging the sim-to-real gap for deploying learned policies 
