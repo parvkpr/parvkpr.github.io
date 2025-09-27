@@ -25,9 +25,9 @@ parvk [at] cs [dot] cmu [dot] edu
 
 ----
 
-**Update:** I am at Microsoft Research working on Large Language Models and Reinforcement Learning! 
+**Update:** Back at CMU after an internship at MSR, TAing 10-623 Generative AI in Fall 2025!
 
-Hi! I am a Ph.D. in Software Engineering student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). I am also a part time researcher with [Scaled Foundations](https://www.scaledfoundations.ai/) and collaborate with [Toyota Infotech Labs](https://amrd.toyota.com/division/itl/).
+Hi! I am a Ph.D. in Software Engineering student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). During my Ph.D., I have interned at Microsoft Research, where I worked with Dr. John Langford on scaling long-horizon reasoning in large language models using Matryoshka representations. I was also a researcher with [General Robotics](https://www.generalrobotics.company/) working with Dr. Ashish Kapoor on developing safe robot foundation models.
 
 I am interested in safe and robust robot learning, leveraging diverse methodologies such as constrained robot foundation models, reinforcement learning, control barrier functions, and imitation learning. Lately, my focus has shifted towards large action models and embodied AI. My past work has been focused on:
 1. Safe deep learning-based planning
@@ -36,7 +36,8 @@ I am interested in safe and robust robot learning, leveraging diverse methodolog
   - Efficient differentiable logic networks for trajectory optimization and diffusion policies [(RA-L, ICRA 2026)](https://uw-ctrl.github.io/stlcg/)
   - Embedding logical rules into autoregressive pre-trained transformers for trajectory planning [(RSS SA 24)](/assets/pdf/RSS.pdf)
   - Embedding general aviation rules into learning from demonstration policies using MCTS [(ICRA 23)](https://arxiv.org/abs/2209.13737)
-2. Bridging the sim-to-real gap for deploying learned policies 
+2. Bridging the sim-to-real gap for deploying learned policies
+  - Constrained Decoding for Robot Foundation Models [(Under submission)](https://arxiv.org/abs/2509.01728)
   - Enhancing policy interpretability through trajectory analysis [(ICSE 25)](https://arxiv.org/abs/2412.02905)
   - Identifying failure cases of safe reinforcement policies using simulation guided search [(FM 24)](https://arxiv.org/abs/2406.17066)
   - Requirement decomposition for integrated task and motion planning [(NFM 24)](https://arxiv.org/pdf/2403.10554)
