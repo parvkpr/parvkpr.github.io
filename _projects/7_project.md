@@ -3,7 +3,7 @@ layout: page
 title: Example‑based Constrained LTL specification learning using MaxSAT
 description: Learning LTL specifications with user specified constraints from system traces
 img: assets/img/ltlproj.gif
-importance: 1
+importance: 2
 category: work
 redirect: https://arxiv.org/abs/2311.07462
 skills: [MaxSAT,LTL, Requirements Mining]
