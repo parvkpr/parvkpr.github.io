@@ -240,7 +240,7 @@ category: work
 </section>
 <h3>Ablations</h3>
 
-Since we assume a simple dynamics model (unicycle) for dynamics stepping, we evaluate the impact of noisy dynamics on final satisfaction. Additionally, we also sweep over the beta parameter for RCD which controls how much specification satisfaction should be prioritized over task performance.
+Since we assume a simple dynamics model (unicycle) for generating states from proposed actions, we evaluate the impact of noisy dynamics on final satisfaction. Additionally, we also sweep over the beta parameter for RCD, which controls how much specification satisfaction should be prioritized over task performance.
 <section id="showcase-2" class="mt-5">
   <!-- 2/3 + 1/3 grid with vertical centering -->
   <div class="row justify-content-center align-items-center mt-4">
@@ -263,11 +263,11 @@ Since we assume a simple dynamics model (unicycle) for dynamics stepping, we eva
 
   <div class="caption text-center mt-2">
     <b>Left:</b> STL satisfaction (%) for HCD and RCD under baseline vs noisy dynamics across base models. 
-    <b>Right:</b> Effect of beta on success rate and safety satisfaction.
+    <b>Right:</b> Effect of β on success rate and safety satisfaction.
   </div>
 </section>
   <p>
-    SafeDec remains effective under dynamics noise; both HCD and RCD degrade gracefully, with RCD’s softness helping recover from model mismatch.
+    SafeDec remains effective under dynamics noise; both HCD and RCD degrade gracefully. For our β ablation, we observe that as β increases for PoliFormer, both STL satisfaction and success rate improve in tandem until β = 10, suggesting that moderate regularization can actually aid policy execution. Beyond this, STLsatisfaction continues to improve but at the cost of lower success rates. For Flare, larger β values improve STL satisfaction but reduce success rates. These results highlight that the influence of β is model-dependent but in general demonstrate that SafeDec provides a tunable mechanism to balance safety and performance objectives.
   </p>
 <!-- 
 <section id="llm-assets" class="mt-5">
