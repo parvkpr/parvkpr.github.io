@@ -1,17 +1,31 @@
-{%- assign path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
+{%- assign orig = include.path | relative_url -%}
+{%- assign base = include.path 
+  | replace: ".jpg","" | replace: ".jpeg","" 
+  | replace: ".png","" | replace: ".tiff","" -%}
 
 <figure>
-
+  {%- if site.imagemagick and site.imagemagick.enabled and site.imagemagick.widths -%}
   <picture>
-    {% for i in site.imagemagick.widths -%}
-      <source media="(max-width: {{ i }}px)" srcset="{{ path | relative_url }}-{{ i }}.webp" />
-    {% endfor -%}
-
-    <!-- Fallback to the original file -->
-    <img {% if include.class %}class="{{ include.class }}"{% endif %} src="{{ include.path | relative_url }}" {% if include.alt %}alt="{{ include.alt }}"{% endif %} {% if include.title %}title="{{ include.title }}"{% endif %} {% if include.zoomable %}data-zoomable{% endif %} />
-
+    {%- for i in site.imagemagick.widths -%}
+      <source type="image/webp" media="(max-width: {{ i }}px)" srcset="{{ base | relative_url }}-{{ i }}.webp">
+    {%- endfor -%}
+    <img
+      src="{{ orig }}"
+      {% if include.class %}class="{{ include.class }}"{% endif %}
+      {% if include.alt %}alt="{{ include.alt }}"{% else %}alt="{{ include.title | default: 'image' }}"{% endif %}
+      {% if include.title %}title="{{ include.title }}"{% endif %}
+      loading="lazy" decoding="async">
   </picture>
+  {%- else -%}
+  <img
+    src="{{ orig }}"
+    {% if include.class %}class="{{ include.class }}"{% endif %}
+    {% if include.alt %}alt="{{ include.alt }}"{% else %}alt="{{ include.title | default: 'image' }}"{% endif %}
+    {% if include.title %}title="{{ include.title }}"{% endif %}
+    loading="lazy" decoding="async">
+  {%- endif -%}
 
-  {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
-
+  {%- if include.caption -%}
+  <figcaption class="caption">{{ include.caption }}</figcaption>
+  {%- endif -%}
 </figure>
