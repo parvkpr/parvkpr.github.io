@@ -19,8 +19,19 @@ category: work
     rel="noopener noreferrer">
 📄 Read the Paper
 </a>
+<!-- Problem framing + TL;DR combined -->
+<div class="alert alert-primary mt-3" role="alert">
+  <p style="margin-bottom: 0.6rem;">
+    <strong>Key Question:</strong>
+    How can we enforce contextual user rules such as
+     <em>“don’t approach the bedroom if you have food in hand”</em>  for robot foundation models, even when the models weren’t explicitly trained for them?
+  </p>
+  <p style="margin-bottom: 0;">
+    <strong>Our Approach:</strong>
+    A constrained decoding method for robot foundation models that enforces contextual safety rules at inference time without retraining.
+  </p>
+</div>
 
-<b> TLDR: LLM-inspired constrained decoding for robot foundation models, enabling inference time enforcement of safety rules without retraining. </b>
 <section id="motivation" class="mt-4">
   <!-- <h2>Why SafeDec?</h2> -->
 <p>
