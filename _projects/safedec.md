@@ -19,6 +19,8 @@ category: work
     rel="noopener noreferrer">
 📄 Read the Paper
 </a>
+
+<b> TLDR: LLM-inspired constrained decoding for robot foundation models, enabling inference time enforcement of safety rules without retraining. </b>
 <section id="motivation" class="mt-4">
   <!-- <h2>Why SafeDec?</h2> -->
 <p>
@@ -75,7 +77,7 @@ category: work
 </div>
 
 <p>
-  A way to enforce these rules could be through fine tuning a pretrained model on safe demonstrations. However, retraining is expensive and can’t ensure provable safety due to model stochasticity. To overcome this challenge, We need a <strong>inference-time</strong> way to enforce safety requirements.
+  A possible way to enforce these rules could be through fine tuning a pretrained model on safe demonstrations. However, retraining is expensive and can’t ensure provable safety due to model stochasticity. To overcome this challenge, We need an <strong>inference-time</strong> approach to enforce safety requirements.
 </p>
 </section>
 
@@ -87,7 +89,7 @@ category: work
   </p>
 
   <p>
-    In all these methods, the core principle is the same: <b>mask invalid next-tokens before they’re produced </b>, pruning probability mass of illegal continuations so the model outputs well-formed text (e.g., JSON) <sup><a href="#ref-willard2023">[2]</a>, <a href="#ref-welleck2024">[4]</a></sup>.
+    In all these methods, the core principle is the same: <b>mask invalid next-tokens before they’re produced</b>, pruning probability mass of illegal continuations so the model outputs well-formed text (e.g., JSON) <sup><a href="#ref-willard2023">[2]</a>, <a href="#ref-welleck2024">[4]</a></sup>.
   </p>
 
 <div class="row mt-4 justify-content-center">
