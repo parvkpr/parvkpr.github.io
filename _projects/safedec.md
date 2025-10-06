@@ -30,7 +30,7 @@ category: work
   map multimodal inputs (RGB, language, proprioception) directly to action sequences and generalize well across navigation and manipulation tasks. 
   Trained on large language-conditioned trajectory datasets, they achieve strong zero-shot transfer on diverse goals such as object-centric tasks ("find a mug"), 
   spatial tasks ("visit all rooms"), and attribute-conditioned variants ("locate the chair closest to the refrigerator"). 
-  While these models demonstrate robust real-world performance, they remain <b>purely data-driven and have no explicit notions of safety</b>. To deploy these policies out in the wild, we need methods beyond depending on implicit biases of pretraining data.
+  While these models demonstrate robust real-world performance, they remain <b>purely data-driven and have no explicit notions of safety</b>. For instance, they cannot reliably enforce contextual constraints such as “avoid entering the bedroom while carrying food.” To deploy these policies out in the wild, we need methods beyond depending on implicit biases of pretraining data.
 </p>
 <!-- Embedded FLaRe demo video -->
 
@@ -267,8 +267,16 @@ Since we assume a simple dynamics model (unicycle) for generating states from pr
   </div>
 </section>
   <p>
-    SafeDec remains effective under dynamics noise; both HCD and RCD degrade gracefully. For our β ablation, we observe that as β increases for PoliFormer, both STL satisfaction and success rate improve in tandem until β = 10, suggesting that moderate regularization can actually aid policy execution. Beyond this, STLsatisfaction continues to improve but at the cost of lower success rates. For Flare, larger β values improve STL satisfaction but reduce success rates. These results highlight that the influence of β is model-dependent but in general demonstrate that SafeDec provides a tunable mechanism to balance safety and performance objectives.
+    SafeDec remains effective under dynamics noise; both HCD and RCD degrade gracefully. For our β ablation, we observe that as β increases for PoliFormer, both STL satisfaction and success rate improve in tandem until β = 10, suggesting that moderate regularization can actually aid policy execution. Beyond this, STL satisfaction continues to improve but at the cost of lower success rates. For Flare, larger β values improve STL satisfaction but reduce success rates. These results highlight that the influence of β is model-dependent but in general demonstrate that SafeDec provides a tunable mechanism to balance safety and performance objectives.
   </p>
+
+<h3>Conclusion</h3>
+<p>
+In this post, we explored a constrained decoding framework that brings safety guarantees to large transformer-based robot policies. By enforcing safety specifications directly at inference time, our approach enables <b>real-time adaptation to new rules and environments without any retraining</b>.
+</p>
+<p>
+We’re excited about how this line of work can make foundation models more reliable in the wild. Stay tuned as we share more results, open-source code, and demos soon!
+</p>
 <!-- 
 <section id="llm-assets" class="mt-5">
   <h2>References &amp; Links</h2>
@@ -314,8 +322,8 @@ Since we assume a simple dynamics model (unicycle) for generating states from pr
 <section id="links" class="mt-5">
   <h2>Papers</h2>
   <ul>
-    <li>STLCG++ (our STL engine): <a href="https://arxiv.org/abs/2501.04194">arxiv</a>.</li>
     <li>SafeDec: <a href="https://www.arxiv.org/abs/2509.01728">arxiv</a>.</li>
+    <li>STLCG++ (our STL engine): <a href="https://arxiv.org/abs/2501.04194">arxiv</a>.</li>
   </ul>
 </section>
 <section id="references" class="mt-5">
