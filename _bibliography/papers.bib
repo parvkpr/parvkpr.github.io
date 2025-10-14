@@ -169,33 +169,21 @@ of System Deviations},
   dimensions={true},
   selected={true}
 }
-@article{kapoor2023incr,
-  title={Safe Planning through Incremental Decomposition of Signal Temporal Logic},
-  author={Kapoor, Parv and Meira-Goes, Romulo and Kang, Eunsuk},
-  abstract={Trajectory planning is a critical process that enables au-
-tonomous systems to safely navigate complex environments. Signal tem-
-poral logic (STL) specifications are an effective way to encode complex,
-temporally extended objectives for trajectory planning in cyber-physical
-systems (CPS). However, the complexity of planning with STL using
-existing techniques scales exponentially with the number of nested op-
-erators and the time horizon of a given specification. Additionally, poor
-performance is exacerbated at runtime due to limited computational bud-
-gets and compounding modeling errors. Decomposing a complex speci-
-fication into smaller subtasks and incrementally planning for them can
-remedy these issues. In this work, we present a method for decomposing
-STL specifications to improve planning efficiency and performance. The
-key insight in our work is to encode all specifications as a set of basic
-constraints called reachability and invariance constraints, and schedule
-these constraints sequentially at runtime. Our experiment shows that the
-proposed technique outperforms the state-of-the-art trajectory planning
-techniques for both linear and non-linear dynamical systems.},
-  journal={Nasa Formal Methods},
-  pdf={NFM.pdf},
-  html={https://arxiv.org/abs/2403.10554},
-  year={2024},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@InProceedings{10.1007/978-3-031-60698-4_23,
+author="Kapoor, Parv
+and Kang, Eunsuk
+and Meira-G{\'o}es, R{\^o}mulo",
+editor="Benz, Nathaniel
+and Gopinath, Divya
+and Shi, Nija",
+title="Safe Planning Through Incremental Decomposition of Signal Temporal Logic Specifications",
+booktitle="NASA Formal Methods",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="377--396",
+abstract="Trajectory planning is a critical process that enables autonomous systems to safely navigate complex environments. Signal temporal logic (STL) specifications are an effective way to encode complex, temporally extended objectives for trajectory planning in cyber-physical systems (CPS). However, the complexity of planning with STL using existing techniques scales exponentially with the number of nested operators and the time horizon of a given specification. Additionally, poor performance is exacerbated at runtime due to limited computational budgets and compounding modeling errors. Decomposing a complex specification into smaller subtasks and incrementally planning for them can remedy these issues. In this work, we present a method for decomposing STL specifications to improve planning efficiency and performance. The key insight in our work is to encode all specifications as a set of basic constraints called reachability and invariance constraints, and schedule these constraints sequentially at runtime. Our experiment shows that the proposed technique outperforms the state-of-the-art trajectory planning techniques for both linear and non-linear dynamical systems.",
+isbn="978-3-031-60698-4"
 }
 @inproceedings{zhangtolerance,
   title={Tolerance of Reinforcement Learning Controllers against Deviations in Cyber Physical Systems},
@@ -230,17 +218,46 @@ higher specification satisfaction over the baselines. },
 }
 
 
-@article{zhang2024constrained,
-  title={Constrained ltl specification learning from examples},
-  author={Zhang, Changjian and Kapoor, Parv and Dardik, Ian and Cui, Leyi and Meira-Goes, Romulo and Garlan, David and Kang, Eunsuk},
-  journal={arXiv preprint arXiv:2412.02905},
-  year={2024}
-}
-@article{kapoor2025stlcg++,
-  title={STLCG++: A Masking Approach for Differentiable Signal Temporal Logic Specification},
-  author={Kapoor, Parv and Mizuta, Kazuki and Kang, Eunsuk and Leung, Karen},
-  journal={arXiv preprint arXiv:2501.04194},
-  year={2025}
+@INPROCEEDINGS{11029727,
+
+  author={Zhang, Changjian and Kapoor, Parv and Dardik, Ian and Cui, Leyi and Meira-Góes, Rômulo and Garlan, David and Kang, Eunsuk},
+
+  booktitle={2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)}, 
+
+  title={Constrained LTL Specification Learning from Examples}, 
+
+  year={2025},
+
+  volume={},
+
+  number={},
+
+  pages={629-641},
+
+  keywords={Runtime;Model checking;Software;Encoding;Logic;Monitoring;linear temporal logic;ltl learning;formal methods;model-driven engineering;formal specifications;requirements engineering;modeling tools},
+
+  doi={10.1109/ICSE55347.2025.00160}}
+@article{Kapoor_2025,
+   title={STLCG++: A Masking Approach for Differentiable Signal Temporal Logic Specification},
+   volume={10},
+   ISSN={2377-3774},
+   url={http://dx.doi.org/10.1109/LRA.2025.3588389},
+   DOI={10.1109/lra.2025.3588389},
+   number={9},
+   journal={IEEE Robotics and Automation Letters},
+   publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+   author={Kapoor, Parv and Mizuta, Kazuki and Kang, Eunsuk and Leung, Karen},
+   year={2025},
+   month=sep, pages={9240–9247} }
+@misc{kapoor2025constraineddecodingroboticsfoundation,
+      title={Constrained Decoding for Robotics Foundation Models}, 
+      author={Parv Kapoor and Akila Ganlath and Michael Clifford and Changliu Liu and Sebastian Scherer and Eunsuk Kang},
+      year={2025},
+      eprint={2509.01728},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2509.01728},
+      html ={https://arxiv.org/abs/2509.01728}, 
 }
 @article{kapoor2025pretrained,
   title={Pretrained Embeddings as a Behavior Specification Mechanism},
@@ -248,21 +265,13 @@ higher specification satisfaction over the baselines. },
   journal={arXiv preprint arXiv:2503.02012},
   year={2025}
 }
-@misc{kapoor2025demonstratingvisafevisionenabledsafety,
-      title={Demonstrating ViSafe: Vision-enabled Safety for High-speed Detect and Avoid}, 
-      author={Parv Kapoor and Ian Higgins and Nikhil Keetha and Jay Patrikar and Brady Moon and Zelin Ye and Yao He and Ivan Cisneros and Yaoyu Hu and Changliu Liu and Eunsuk Kang and Sebastian Scherer},
-      year={2025},
-      eprint={2505.03694},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2505.03694}, 
-}
-@article{kapoor2025constrained,
-  title={Constrained Decoding for Robotics Foundation Models},
-  author={Kapoor, Parv and Ganlath, Akila and Liu, Changliu and Scherer, Sebastian and Kang, Eunsuk},
-  journal={arXiv preprint arXiv:2509.01728},
+@article{kapoor2025demonstrating,
+  title={Demonstrating ViSafe: Vision-enabled Safety for High-speed Detect and Avoid},
+  author={Kapoor, Parv and Higgins, Ian and Keetha, Nikhil and Patrikar, Jay and Moon, Brady and Ye, Zelin and He, Yao and Cisneros, Ivan and Hu, Yaoyu and Liu, Changliu and Kang, Eunsuk and Scherer, Sebastian},
+  booktitle={Robotics: Science and Systems (RSS)},
   year={2025}
 }
+
 @article{zou2025cloudanoagent,
   title={CloudAnoAgent: Anomaly Detection for Cloud Sites via LLM Agent with Neuro-Symbolic Mechanism},
   author={Zou, Xinkai and Jiang, Xuan and Huang, Ruikai and He, Haoze and Kapoor, Parv and Zhao, Jiahua},
