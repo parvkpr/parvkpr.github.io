@@ -25,7 +25,9 @@ parvk [at] cs [dot] cmu [dot] edu
 
 ----
 
-**Update:** Back at CMU after an internship at MSR, TAing 10-623 Generative AI in Fall 2025!
+**Update:** Back at CMU after an internship at Microsoft Research, TAing 10-623 Generative AI in Fall 2025!
+
+**Update 2:** I proposed my [thesis](assets/pdf/Thesis_proposal.pdf) on safe robot autonomy and am on the job market looking for research scientist/postdoc positions! My graduation is expected to be mid 2026!
 
 Hi! I am a Ph.D. in Software Engineering student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). During my Ph.D., I have interned at Microsoft Research, where I worked with Dr. John Langford on scaling long-horizon reasoning in large language models using Matryoshka representations. I was also a researcher with [General Robotics](https://www.generalrobotics.company/) working with Dr. Ashish Kapoor on developing safe robot foundation models.
 
