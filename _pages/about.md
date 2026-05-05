@@ -25,9 +25,7 @@ parvk [at] cs [dot] cmu [dot] edu
 
 ----
 
-**Update:** Back at CMU after an internship at Microsoft Research, TAing 10-623 Generative AI in Fall 2025!
-
-**Update 2:** I proposed my [thesis](assets/pdf/Thesis_proposal.pdf) on safe robot autonomy and am on the job market looking for research scientist/postdoc positions! My graduation is expected to be mid 2026!
+**Update:** I am defending my thesis in Summer 2026 and am an [RSS Pioneer 2026](https://sites.google.com/view/rsspioneers2026/participants)!
 
 Hi! I am a Ph.D. in Software Engineering student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). During my Ph.D., I have interned at Microsoft Research, where I worked with Dr. John Langford on scaling long-horizon reasoning in large language models using Matryoshka representations. I was also a researcher with [General Robotics](https://www.generalrobotics.company/) working with Dr. Ashish Kapoor on developing safe robot foundation models.
 
@@ -39,7 +37,7 @@ I am interested in safe and robust robot learning, leveraging diverse methodolog
   - Embedding logical rules into autoregressive pre-trained transformers for trajectory planning [(RSS SA 24)](/assets/pdf/RSS.pdf)
   - Embedding general aviation rules into learning from demonstration policies using MCTS [(ICRA 23)](https://arxiv.org/abs/2209.13737)
 2. Bridging the sim-to-real gap for deploying learned policies
-  - Constrained Decoding for Robot Foundation Models [(Under submission)](https://arxiv.org/abs/2509.01728)
+  - Constrained Decoding for Robot Foundation Models [(ICML 26)](https://arxiv.org/abs/2509.01728)
   - Enhancing policy interpretability through trajectory analysis [(ICSE 25)](https://arxiv.org/abs/2412.02905)
   - Identifying failure cases of safe reinforcement policies using simulation guided search [(FM 24)](https://arxiv.org/abs/2406.17066)
   - Requirement decomposition for integrated task and motion planning [(NFM 24)](https://arxiv.org/pdf/2403.10554)
@@ -55,3 +53,15 @@ I am currently a part of [AirLab](http://theairlab.org/) and [SoDA](https://cmu-
 <!-- If you are interested in working with me or joining our lab, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSddQ--uka2G7yDAaOrrtqH5BmBMmCAhq7GZp6zbwzG2ZXg1wA/viewform?usp=sf_link).  -->
 
 <!-- I am deeply passionate about the intersection of Software Engineering and Artificial Intelligence, particularly in leveraging software engineering methodologies to guarantee the safety and reliability of AI systems. -->
+
+----
+
+**Academic Service**
+
+Reviewer: RSS 2026, [RSS Pioneers 2026](https://sites.google.com/view/rsspioneers2026/participants), ICLR 2026, IASEAI 2026, L4DC 2025, RSS 2025, CoRL 2026
+
+**Teaching**
+
+Teaching Assistant, Carnegie Mellon University  
+- [10-623 Generative AI](https://www.cs.cmu.edu/~mgormley/courses/10423-f25/people.html)  
+- [17-723 Designing Large Scale Systems](https://cmu-swdesign.github.io/)
