@@ -3,7 +3,7 @@ layout: page
 title: "ETL: Runtime Monitoring via Embedding Temporal Logic"
 description: A temporal logic framework for runtime monitoring of perception-based autonomous systems directly in learned embedding spaces, without discrete state abstraction.
 img: assets/img/droid_monitoring.gif
-importance: 5
+importance: 4
 category: work
 selected: true
 venue: Under Submission
