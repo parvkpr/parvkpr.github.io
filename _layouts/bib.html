@@ -69,6 +69,9 @@
             {%- endif -%}
           {%- endfor %}
           </div>
+          {%- if entry.annotation %}
+          <div class="annotation" style="font-size: 0.85em; color: #888; margin-top: 0.1rem;">{{ entry.annotation }}</div>
+          {%- endif %}
 
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}

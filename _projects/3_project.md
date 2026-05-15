@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Vision-enabled CBFs for High-speed Detection and Avoidance
-description: Designed new CBF formulations for safe separation of aircrafts at high speeds using pure vision based sensors
+description: Designed vision-based control barrier function formulations for safe separation of aircraft at high speeds using pure vision sensors, a precursor to ViSafe.
 img: assets/img/CBfs.gif
-importance: 3
-category: work
-redirect: https://arxiv.org/abs/2211.06932
-skills: [Control Barrier Functions, Reactive Control, Collision Avoidance]
+importance: 8
+category: hidden
+arxiv: https://arxiv.org/abs/2211.06932
 ---
 
 Every project has a beautiful feature showcase page.

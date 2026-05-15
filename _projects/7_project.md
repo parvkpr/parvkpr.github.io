@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Example‑based Constrained LTL specification learning using MaxSAT
-description: Learning LTL specifications with user specified constraints from system traces
+title: "ATLAS: Learning Formal Behavior Rules from Robot Demonstrations"
+description: Built a framework for learning formal LTL behavior specifications from robot demonstrations using MaxSAT, enabling structured policy synthesis with user-defined constraints.
 img: assets/img/ltlproj.gif
-importance: 2
+importance: 6
 category: work
-redirect: https://arxiv.org/abs/2311.07462
-skills: [MaxSAT,LTL, Requirements Mining]
+selected: true
+venue: ICSE 2025
+arxiv: https://arxiv.org/abs/2412.02905
 ---
 
 Every project has a beautiful feature showcase page.

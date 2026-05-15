@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Trust elicitation and restoration in assistive robots
-description: Investigated the impact of customization and perspective on perceived trust in RL policies for an assistive robotics context via a pilot user study 
+title: Trust Elicitation and Restoration in Assistive Robots
+description: Pilot user study investigating the impact of policy customization and perspective on perceived trust in RL-based assistive robot policies.
 img: assets/img/hrivid.gif
-importance: 6
+importance: 9
 category: work
-redirect: /assets/pdf/HRIFINAL.pdf
-skills: [Human Robot Interaction, RL, Assistive Robotics]
+paper: /assets/pdf/HRIFINAL.pdf
 ---
 
 Every project has a beautiful feature showcase page.

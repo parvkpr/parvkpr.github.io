@@ -1,43 +1,64 @@
-<div class="card-item col-md-12">
-  {%- if project.redirect -%}
-  <a href="{{ project.redirect }}">
-  {%- else -%}
-  <a href="{{ project.url | relative_url }}">
-  {%- endif -%}
-    <div class="card hoverable">
-      <div class="row g-0">
-        {%- if project.img -%}
-        <div class="card-img col-md-6">
-          {% include figure.html path=project.img alt="project thumbnail" %}
-        </div>
-        <div class="col-md-6">
+<div class="card-item col">
+  <div class="card hoverable">
+    <div class="row g-0">
+      {%- if project.img or project.video -%}
+      <div class="col-md-5 d-flex align-items-center">
+        {%- if project.redirect -%}
+        <a href="{{ project.redirect }}" class="w-100" target="_blank" rel="noopener">
+        {%- elsif project.website -%}
+        <a href="{{ project.website }}" class="w-100" target="_blank" rel="noopener">
+        {%- elsif project.arxiv -%}
+        <a href="{{ project.arxiv }}" class="w-100" target="_blank" rel="noopener">
         {%- else -%}
-        <div class="col-md-12">
+        <a href="{{ project.url | relative_url }}" class="w-100">
         {%- endif -%}
-          <div class="card-body">
-            <h3 class="card-title text">{{ project.title }}</h3>
+          {%- if project.video -%}
+          <video autoplay loop muted playsinline class="img-fluid rounded-start w-100">
+            <source src="{{ project.video }}" type="video/mp4">
+          </video>
+          {%- else -%}
+          {% include figure.html path=project.img alt="project thumbnail" class="img-fluid rounded-start" %}
+          {%- endif -%}
+        </a>
+      </div>
+      <div class="col-md-7">
+      {%- else -%}
+      <div class="col-md-12">
+      {%- endif -%}
+        <div class="card-body d-flex flex-column">
+          <div>
+            {%- if project.venue -%}
+            <p style="color: #e07b39; font-weight: bold; font-size: 0.85em; margin-bottom: 0.25rem;">{{ project.venue }}</p>
+            {%- endif -%}
+            {%- if project.redirect -%}
+            <a href="{{ project.redirect }}" class="text-decoration-none text-dark" target="_blank" rel="noopener">
+            {%- elsif project.website -%}
+            <a href="{{ project.website }}" class="text-decoration-none text-dark" target="_blank" rel="noopener">
+            {%- elsif project.arxiv -%}
+            <a href="{{ project.arxiv }}" class="text-decoration-none text-dark" target="_blank" rel="noopener">
+            {%- else -%}
+            <a href="{{ project.url | relative_url }}" class="text-decoration-none text-dark">
+            {%- endif -%}
+              <h5 class="card-title">{{ project.title }}</h5>
+            </a>
             <p class="card-text">{{ project.description }}</p>
-              {% for skill in project.skills %}
-                <span class="card-skills">{{ skill }}</span>
-              {% endfor %}
-            <div class="row ml-1 mr-1 p-0">
-              {%- if project.github -%}
-              <div class="github-icon">
-                <div class="icon" data-toggle="tooltip" title="Code Repository">
-                  <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
-                </div>
-                {%- if project.github_stars -%}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fas fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-                {%- endif -%}
-              </div>
-              {%- endif -%}
-            </div>
+          </div>
+          <div class="mt-auto pt-2">
+            {%- if project.website -%}
+            <a href="{{ project.website }}" class="btn btn-sm btn-outline-primary me-1" target="_blank" rel="noopener">Website</a>
+            {%- endif -%}
+            {%- if project.arxiv -%}
+            <a href="{{ project.arxiv }}" class="btn btn-sm btn-outline-secondary me-1" target="_blank" rel="noopener">arXiv</a>
+            {%- endif -%}
+            {%- if project.paper -%}
+            <a href="{{ project.paper }}" class="btn btn-sm btn-outline-secondary me-1" target="_blank" rel="noopener">Paper</a>
+            {%- endif -%}
+            {%- if project.github -%}
+            <a href="{{ project.github }}" class="btn btn-sm btn-outline-dark me-1" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+            {%- endif -%}
           </div>
         </div>
       </div>
     </div>
-  </a>
+  </div>
 </div>

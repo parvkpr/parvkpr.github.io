@@ -1,10 +1,15 @@
 ---
 layout: page
 title: Constrained Decoding for Robot Foundation Models
-description: How lessons from language models inspired a new way to make robot foundation models provably safe.
+description: Enforces safety specifications expressed as Signal Temporal Logic (STL) formulas on transformer-based robot foundation models at inference time — no retraining required.
 img: assets/img/top_down_cd.gif
 importance: 1
 category: work
+selected: true
+venue: ICML 2026
+arxiv: https://arxiv.org/abs/2509.01728
+redirect: /projects/safedec/
+website: https://constrained-robot-fms.github.io/
 # redirect: https://arxiv.org/abs/2311.07462
 # skills: [RL,STL, SE4AI, Robustness]
 ---
@@ -13,6 +18,8 @@ category: work
   <h1 class="display-4">SafeDec: Constrained Decoding for Safer Generalist Robot Policies</h1>
   <p class="lead">We adapt constrained decoding from language models to robot foundation models—enforcing Signal Temporal Logic (STL) specifications at inference-time, without retraining.</p>
 </header> -->
+<p style="text-align: center; color: #e07b39; font-weight: bold; font-size: 1.3em;">International Conference on Machine Learning (ICML) 2026</p>
+
 <a href="https://www.arxiv.org/abs/2509.01728" 
     class="btn btn-primary mt-3" 
     target="_blank" 
@@ -157,9 +164,8 @@ category: work
   </p>
 
   <div class="row mt-4 justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-      {% include figure.html path="assets/img/safedec.png"
-         title="From token-space constraints (LLMs) to temporal STL constraints (RFMs)" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10 mt-3 mt-md-0">
+      <img src="https://constrained-robot-fms.github.io/static/images/paper.png" class="img-fluid rounded z-depth-1" alt="SafeDec overview">
     </div>
   </div>
   <div class="caption">
@@ -242,14 +248,21 @@ category: work
 <section id="results" class="mt-5">
   <h2>Results at a Glance</h2>
   <p>
-    Evaluated on hundreds of procedurally generated AI2-THOR scenes with three SOTA policies (SPOC, Flare, PoliFormer), SafeDec enforced two invariant specs: <em>ϕ<sub>avoid</sub></em> (never enter forbidden zones) and <em>ϕ<sub>geofence</sub></em> (stay within allowed regions).
+    Evaluated on hundreds of procedurally generated AI2-THOR scenes with three SOTA policies (SPOC, FLaRe, PoliFormer), SafeDec enforced two invariant specs: <em>ϕ<sub>avoid</sub></em> (never enter forbidden zones) and <em>ϕ<sub>geofence</sub></em> (stay within allowed regions).
   </p>
   <ul>
     <li><strong>Unconstrained</strong>: Only ~68–78% geofence and ~72–77% avoid satisfaction.</li>
     <li><strong>HCD</strong>: ~100% spec satisfaction across models/specs, with a modest 5–10% success drop vs. baseline.</li>
-    <li><strong>RCD</strong>: ~80–95% spec satisfaction with success rates close to unconstrained (often within 1–3%); better safety–performance trade-off than HCD.</li>
+    <li><strong>RCD</strong>: ~80–95% spec satisfaction with success rates close to unconstrained (often within 1–3%); best safety–performance trade-off overall.</li>
   </ul>
-
+  <p>
+    Compared against SafeVLA on SafetyChores, HCD reduces safety violations from <strong>0.205 → 0.015</strong>, achieving near-zero violations while maintaining competitive task success.
+  </p>
+  <div class="row mt-4 justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+      <img src="https://constrained-robot-fms.github.io/static/images/resu_safedec.png" class="img-fluid rounded z-depth-1" alt="SafeDec results">
+    </div>
+  </div>
 </section>
 <h3>Ablations</h3>
 
@@ -333,10 +346,10 @@ We’re excited about how this line of work can make foundation models more reli
 </section> -->
 
 <section id="links" class="mt-5">
-  <h2>Papers</h2>
+  <h2>Links</h2>
   <ul>
-    <li>SafeDec: <a href="https://www.arxiv.org/abs/2509.01728">arxiv</a>.</li>
-    <li>STLCG++ (our STL engine): <a href="https://arxiv.org/abs/2501.04194">arxiv</a>.</li>
+    <li>SafeDec: <a href="https://constrained-robot-fms.github.io/">Website</a> · <a href="https://arxiv.org/abs/2509.01728">arXiv</a></li>
+    <li>STLCG++ (our STL engine): <a href="https://uw-ctrl.github.io/stlcg/">Website</a> · <a href="https://arxiv.org/abs/2501.04194">arXiv</a></li>
   </ul>
 </section>
 <section id="references" class="mt-5">

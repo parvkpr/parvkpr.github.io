@@ -12,6 +12,8 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_projects: true # includes a list of projects marked as "selected={true}"
+experience: true # includes chronological experience logos
 social: true  # includes social icons at the bottom of the page
 ---
 Ph.D. Student in Software Engineering  
@@ -29,8 +31,8 @@ parvk [at] cs [dot] cmu [dot] edu
 
 Hi! I am a Ph.D. in Software Engineering student at [Carnegie Mellon University](https://www.cmu.edu/) advised by [Dr. Eunsuk Kang](https://eskang.github.io/) and [Dr. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). During my Ph.D., I have interned at Microsoft Research, where I worked with Dr. John Langford on scaling long-horizon reasoning in large language models using Matryoshka representations. I was also a researcher with [General Robotics](https://www.generalrobotics.company/) working with Dr. Ashish Kapoor on developing safe robot foundation models.
 
-I am interested in safe and robust robot learning, leveraging diverse methodologies such as constrained robot foundation models, reinforcement learning, control barrier functions, and imitation learning. Lately, my focus has shifted towards large action models and embodied AI. My past work has been focused on:
-1. Safe deep learning-based planning
+I am interested in safe and robust robot learning and my work has been focused on:
+1. Safe deep learning-based robotics
   - Vision-based control barrier functions for Aerial Robotics [(RSS 25)](https://arxiv.org/abs/2505.03694) 
   - Using pretrained embeddings based behavior specifications for planning with world models [(Under submission)](https://arxiv.org/abs/2503.02012)
   - Efficient differentiable logic networks for trajectory optimization and diffusion policies [(RA-L, ICRA 2026)](https://uw-ctrl.github.io/stlcg/)
@@ -44,7 +46,7 @@ I am interested in safe and robust robot learning, leveraging diverse methodolog
   
 <!--3. Leveraging Alloy+LLMs for Semi Formal Programming (Requirements to Declarative Specifications to Code)-->
 
-Beyond my core research, I have also developed a custom deep learning library with [implicit differentiation layers](https://github.com/parvkpr/implicit_dl) from scratch, conducted pilot user studies for trustworthy human-robot interaction, and contributed to the simulation and the foundation model workstreams for the Scaled Foundations [GRID platform](https://www.scaledfoundations.ai/).
+Beyond my core research, I have also developed a custom deep learning library with [implicit differentiation layers](https://github.com/parvkpr/implicit_dl) from scratch, conducted pilot user studies for trustworthy human-robot interaction, and contributed to the simulation and the foundation model workstreams for the General Robotics' [GRID platform](https://www.generalrobotics.company/post/intelligence-grid).
 
 
 
@@ -56,12 +58,6 @@ I am currently a part of [AirLab](http://theairlab.org/) and [SoDA](https://cmu-
 
 ----
 
-**Academic Service**
+**Reviewer:** RSS 2026, [RSS Pioneers 2026](https://sites.google.com/view/rsspioneers2026/participants), ICLR 2026, IASEAI 2026, L4DC 2025, RSS 2025, CoRL 2026
 
-Reviewer: RSS 2026, [RSS Pioneers 2026](https://sites.google.com/view/rsspioneers2026/participants), ICLR 2026, IASEAI 2026, L4DC 2025, RSS 2025, CoRL 2026
-
-**Teaching**
-
-Teaching Assistant, Carnegie Mellon University  
-- [10-623 Generative AI](https://www.cs.cmu.edu/~mgormley/courses/10423-f25/people.html)  
-- [17-723 Designing Large Scale Systems](https://cmu-swdesign.github.io/)
+**Teaching Assistant:** [10-623 Generative AI](https://www.cs.cmu.edu/~mgormley/courses/10423-f25/people.html), [17-723 Designing Large Scale Systems](https://cmu-swdesign.github.io/) at CMU

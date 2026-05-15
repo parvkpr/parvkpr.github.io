@@ -3,9 +3,12 @@ layout: page
 title: Online STL Tree Search for Guided Imitation Learning 
 description:  Employed Monte Carlo Tree Search (MCTS) as a means of integrating STL specification into a vanilla LfD policy to improve constraint satisfaction. 
 img: assets/img/lfd.gif
-importance: 2
+importance: 7
 category: work
-redirect: https://www.youtube.com/watch?v=fiFCwc57MQs
+selected: true
+venue: ICRA 2023
+arxiv: https://arxiv.org/abs/2209.13737
+website: https://www.youtube.com/watch?v=fiFCwc57MQs
 skills: [LfD, MCTS, STL, Social Navigation]
 ---
 

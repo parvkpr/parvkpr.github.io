@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="ETL: a temporal logic framework for runtime monitoring of perception-based autonomous systems directly in learned embedding spaces, without discrete state abstraction."/>
+  <meta property="og:title" content="Runtime Monitoring of Perception-Based Autonomous Systems via Embedding Temporal Logic"/>
+  <meta property="og:description" content="ETL defines predicates through distances in learned embedding spaces and composes them with temporal operators to monitor sequential perceptual behaviors at runtime."/>
+  <meta property="og:url" content="https://parvkpr.github.io/projects/etl"/>
+  <meta property="og:image" content="https://arxiv.org/html/2605.12651v1/x1.png"/>
+  <meta name="twitter:title" content="Embedding Temporal Logic for Runtime Monitoring"/>
+  <meta name="twitter:description" content="Runtime monitoring directly in learned embedding spaces — no discrete state abstraction needed."/>
+  <meta name="twitter:image" content="https://arxiv.org/html/2605.12651v1/x1.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="keywords" content="runtime monitoring, temporal logic, embedding spaces, autonomous systems, perception, robotics"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <title>Embedding Temporal Logic for Runtime Monitoring</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"/>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet"/>
+  <link rel="stylesheet" href="static/css/bulma.min.css"/>
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css"/>
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css"/>
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"/>
+  <link rel="stylesheet" href="static/css/index.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <style>
+    .results-carousel .item img,
+    .results-carousel .item video { margin-bottom: 5.5rem; }
+    .method-box { background: #f5f5f5; border-radius: 8px; padding: 1.5rem; height: 100%; }
+    .contrib-box { background: #f9f9f9; border-left: 4px solid #e07b39; padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin-bottom: 1rem; }
+    .contrib-box p { margin: 0; }
+  </style>
+</head>
+<body>
+
+<!-- ==================== Hero ==================== -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+
+          <h1 class="title is-1 publication-title">Runtime Monitoring of Perception-Based Autonomous Systems via Embedding Temporal Logic</h1>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><a href="https://parvkpr.github.io/" target="_blank">Parv Kapoor</a><sup>1,*</sup>,&nbsp;</span>
+            <span class="author-block"><a href="https://arhammer.github.io/" target="_blank">Abigail Hammer</a><sup>1,*</sup>,&nbsp;</span>
+            <span class="author-block"><a href="#">Ashish Kapoor</a><sup>2</sup>,&nbsp;</span>
+            <span class="author-block"><a href="https://www.aa.washington.edu/facultyfinder/karen-leung" target="_blank">Karen Leung</a><sup>3</sup>,&nbsp;</span>
+            <span class="author-block"><a href="https://eskang.github.io/" target="_blank">Eunsuk Kang</a><sup>1</sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Carnegie Mellon University&nbsp;&nbsp;</span>
+            <span class="author-block"><sup>2</sup>Scaled Foundations&nbsp;&nbsp;</span>
+            <span class="author-block"><sup>3</sup>University of Washington</span>
+          </div>
+          <div class="is-size-6 publication-authors" style="margin-top: 0.4rem; color: #888;">
+            <span><sup>*</sup>Equal contribution</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2605.12651" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/ETLMonitoringAuthors/ETLMonitoring" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ==================== /Hero ==================== -->
+
+
+<!-- ==================== Teaser ==================== -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <figure>
+        <img src="https://arxiv.org/html/2605.12651v1/x1.png"
+             alt="ETL overview: embedding-based runtime monitoring pipeline"
+             style="width: 100%; border-radius: 6px;"/>
+      </figure>
+      <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+        Target and online observations are encoded into a shared embedding space. ETL monitors
+        evaluate specifications by computing distances between observed and target embeddings over time,
+        applying calibrated thresholds to produce Boolean predicate traces that are composed with
+        temporal operators for runtime monitoring.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- ==================== /Teaser ==================== -->
+
+
+<!-- ==================== Abstract ==================== -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Runtime monitoring of autonomous systems traditionally relies on mapping continuous sensor
+            observations to discrete logical propositions defined over low-dimensional state variables.
+            This abstraction breaks down in perception-driven settings, where such mappings require
+            additional learned modules that are often computationally expensive, brittle, and
+            semantically misaligned. In this work, we propose <em>Embedding Temporal Logic</em> (ETL),
+            a temporal logic that performs monitoring directly in learned embedding spaces. ETL defines
+            predicates through distances between observed embeddings and target embeddings derived from
+            reference observations. This formulation allows specifications to capture high-level
+            perceptual concepts, such as similarity to visual goals or avoidance of semantic regions,
+            that are difficult or impossible to express using traditional predicates. By composing these
+            predicates with temporal operators, ETL naturally expresses temporally extended and
+            sequential perceptual behaviors. We introduce ETL monitors for evaluating specifications
+            over bounded embedding traces, along with a conformal calibration procedure that provides
+            reliable and safety-oriented predicate evaluation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ==================== /Abstract ==================== -->
+
+
+<!-- ==================== Contributions ==================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Contributions</h2>
+    <div class="contrib-box">
+      <p><strong>Embedding Temporal Logic (ETL):</strong> A temporal logic formalism that defines
+      predicates through distances in learned embedding spaces, enabling specifications over
+      high-level perceptual concepts without discrete state abstraction.</p>
+    </div>
+    <div class="contrib-box">
+      <p><strong>Formal Semantics &amp; Monitoring:</strong> Boolean satisfaction semantics for
+      bounded embedding traces with practical online monitoring, supporting temporally extended
+      and sequential perceptual behaviors.</p>
+    </div>
+    <div class="contrib-box">
+      <p><strong>Threshold Calibration:</strong> Data-driven calibration methods including
+      F1-optimal and conformal prediction approaches tailored for safety-critical monitoring,
+      improving recall from 0.83 to 0.93 while maintaining precision.</p>
+    </div>
+    <div class="contrib-box">
+      <p><strong>Empirical Validation:</strong> Evaluation across Dubins Car navigation,
+      simulated manipulation (MetaWorld, D3IL), and real-world DROID datasets, demonstrating
+      faithful monitoring of atomic and sequential perceptual behaviors.</p>
+    </div>
+  </div>
+</section>
+<!-- ==================== /Contributions ==================== -->
+
+
+<!-- ==================== Visualizations ==================== -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Monitoring Visualizations</h2>
+    <div class="content has-text-justified">
+      <p>
+        ETL monitors run online alongside the robot policy, producing Boolean predicate traces
+        in real time. Below are representative monitoring rollouts across three evaluation domains.
+      </p>
+    </div>
+
+    <div class="columns is-centered" style="margin-top: 1rem;">
+      <div class="column is-4 has-text-centered">
+        <figure>
+          <img src="static/images/droid_monitoring.gif"
+               alt="DROID real-robot ETL monitoring"
+               style="width: 100%; border-radius: 6px;"/>
+          <figcaption class="is-size-6 has-text-grey" style="margin-top: 0.5rem;">
+            <strong>DROID</strong> — real-robot pick-and-place monitoring on in-the-wild data.
+          </figcaption>
+        </figure>
+      </div>
+      <div class="column is-4 has-text-centered">
+        <figure>
+          <img src="https://raw.githubusercontent.com/ETLMonitoringAuthors/ETLMonitoring/main/assets/sorting_monitoring.gif"
+               alt="D3IL sorting task ETL monitoring"
+               style="width: 100%; border-radius: 6px;"/>
+          <figcaption class="is-size-6 has-text-grey" style="margin-top: 0.5rem;">
+            <strong>D3IL Sorting</strong> — sequential predicate monitoring on a multi-phase sorting task.
+          </figcaption>
+        </figure>
+      </div>
+      <div class="column is-4 has-text-centered">
+        <figure>
+          <img src="https://raw.githubusercontent.com/ETLMonitoringAuthors/ETLMonitoring/main/assets/mw_monitoring.gif"
+               alt="MetaWorld pick-place-wall ETL monitoring"
+               style="width: 100%; border-radius: 6px;"/>
+          <figcaption class="is-size-6 has-text-grey" style="margin-top: 0.5rem;">
+            <strong>MetaWorld</strong> — pick-place-wall task monitoring with ETL predicates.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- ==================== /Visualizations ==================== -->
+
+
+<!-- ==================== Results ==================== -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Results</h2>
+    <div class="content has-text-justified">
+      <p>
+        ETL is evaluated across three domains. On Dubins Car navigation, ETL achieves F1 scores of
+        0.80&ndash;0.85 for reach, avoid, and reach-avoid specifications, with agreement exceeding
+        96%. On simulated manipulation tasks, ETL achieves an average F1 of <strong>0.817</strong>,
+        outperforming the logpZO baseline (0.790) and PCA-kmeans (0.751). On real-world DROID data,
+        ETL achieves a mean F1 of <strong>0.813</strong> and agreement of <strong>0.940</strong>,
+        significantly outperforming the Qwen2-VL-2B vision-language baseline (F1 0.390).
+        Sequential ordering is correctly identified in 4 of 5 episodes.
+      </p>
+    </div>
+
+    <div class="has-text-centered" style="margin-top: 1.5rem;">
+      <figure>
+        <img src="https://arxiv.org/html/2605.12651v1/x2.png"
+             alt="ETL results: predicate traces, F1 scores, and VLM comparison"
+             style="max-width: 100%; border-radius: 6px;"/>
+        <figcaption class="is-size-6 has-text-grey" style="margin-top: 0.75rem;">
+          (a) Boolean predicate traces on Dubins Car with F1-optimal thresholds.
+          (b) Predicate-monitoring F1 scores across all domains.
+          (c) ETL vs. Qwen2-VL-2B on phasic DROID episodes — ETL significantly outperforms
+          the vision-language model baseline.
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="columns is-centered" style="margin-top: 2rem;">
+      <div class="column is-5 has-text-centered">
+        <figure>
+          <img src="https://arxiv.org/html/2605.12651v1/x3.png"
+               alt="ETL additional results"
+               style="width: 100%; border-radius: 6px;"/>
+        </figure>
+      </div>
+      <div class="column is-5 has-text-centered">
+        <figure>
+          <img src="https://arxiv.org/html/2605.12651v1/x4.png"
+               alt="ETL additional results"
+               style="width: 100%; border-radius: 6px;"/>
+        </figure>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- ==================== /Results ==================== -->
+
+
+<!-- ==================== BibTeX ==================== -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{kapoor2026etl,
+  title   = {Runtime Monitoring of Perception-Based Autonomous Systems via Embedding Temporal Logic},
+  author  = {Kapoor, Parv and Hammer, Abigail and Kapoor, Ashish and Leung, Karen and Kang, Eunsuk},
+  journal = {arXiv preprint arXiv:2605.12651},
+  year    = {2026}
+}</code></pre>
+  </div>
+</section>
+<!-- ==================== /BibTeX ==================== -->
+
+
+<!-- ==================== Footer ==================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the
+            <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>,
+            adapted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.<br/>
+            Website content &copy; 2026 &mdash; Released under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ==================== /Footer ==================== -->
+
+</body>
+</html>

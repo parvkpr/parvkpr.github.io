@@ -1,0 +1,76 @@
+<div class="map-section mt-4">
+  <h2>where i've worked</h2>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <div id="work-map" style="height: 420px; border-radius: 10px; margin-top: 1rem; z-index: 0;"></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var map = L.map('work-map', { scrollWheelZoom: false }).setView([30, 10], 2);
+
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
+      }).addTo(map);
+
+      var locations = [
+        {
+          lat: 40.4433, lng: -79.9435,
+          title: "Carnegie Mellon University",
+          detail: "Ph.D. & Masters in Software Engineering",
+          color: "#e07b39"
+        },
+        {
+          lat: 40.7549, lng: -73.9840,
+          title: "Microsoft Research",
+          detail: "ML Research Intern · 2025",
+          color: "#4a90d9"
+        },
+        {
+          lat: 47.6062, lng: -122.3321,
+          title: "General Robotics",
+          detail: "Student Researcher & Research Intern · 2024–2025",
+          color: "#4a90d9"
+        },
+        {
+          lat: 34.0224, lng: -118.2851,
+          title: "University of Southern California",
+          detail: "Research Intern · 2020–2021",
+          color: "#4a90d9"
+        },
+        {
+          lat: 51.4816, lng: -3.1791,
+          title: "Cardiff University",
+          detail: "Research Intern · 2019",
+          color: "#4a90d9"
+        },
+        {
+          lat: 45.1885, lng: 5.7245,
+          title: "Université Grenoble Alpes",
+          detail: "Research Intern",
+          color: "#4a90d9"
+        },
+        {
+          lat: 13.3525, lng: 74.7850,
+          title: "Manipal Institute of Technology",
+          detail: "B.Tech in Computer Science · 2020",
+          color: "#4a90d9"
+        }
+      ];
+
+      locations.forEach(function (loc) {
+        var marker = L.circleMarker([loc.lat, loc.lng], {
+          radius: 9,
+          fillColor: loc.color,
+          color: "#fff",
+          weight: 2,
+          opacity: 1,
+          fillOpacity: 0.9
+        }).addTo(map);
+        marker.bindPopup(
+          '<strong>' + loc.title + '</strong><br><span style="color:#666;">' + loc.detail + '</span>'
+        );
+      });
+    });
+  </script>
+</div>
